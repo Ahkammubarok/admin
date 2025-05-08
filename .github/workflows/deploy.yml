@@ -1,0 +1,23 @@
+name: Deploy ke AWS
+
+on:
+  push:
+    branches: [main]  # Ganti jika kamu pakai 'master'
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout kode
+      uses: actions/checkout@v3
+
+    - name: Deploy ke server AWS via SCP
+      uses: appleboy/scp-action@v0.1.4
+      with:
+        host: ${{ secrets.HOST }}
+        username: ${{ secrets.USERNAME }}
+        key: ${{ secrets.PRIVATE_KEY }}
+        source: "."
+        target: "/var/www/html/admin"
+
