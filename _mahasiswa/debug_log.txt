@@ -1,0 +1,139 @@
+Array
+(
+    [draw] => 1
+    [columns] => Array
+        (
+            [0] => Array
+                (
+                    [data] => no
+                    [name] => 
+                    [searchable] => true
+                    [orderable] => true
+                    [search] => Array
+                        (
+                            [value] => 
+                            [regex] => false
+                        )
+
+                )
+
+            [1] => Array
+                (
+                    [data] => nama
+                    [name] => 
+                    [searchable] => true
+                    [orderable] => true
+                    [search] => Array
+                        (
+                            [value] => 
+                            [regex] => false
+                        )
+
+                )
+
+            [2] => Array
+                (
+                    [data] => prodi
+                    [name] => 
+                    [searchable] => true
+                    [orderable] => true
+                    [search] => Array
+                        (
+                            [value] => 
+                            [regex] => false
+                        )
+
+                )
+
+            [3] => Array
+                (
+                    [data] => jk
+                    [name] => 
+                    [searchable] => true
+                    [orderable] => true
+                    [search] => Array
+                        (
+                            [value] => 
+                            [regex] => false
+                        )
+
+                )
+
+            [4] => Array
+                (
+                    [data] => telepon
+                    [name] => 
+                    [searchable] => true
+                    [orderable] => true
+                    [search] => Array
+                        (
+                            [value] => 
+                            [regex] => false
+                        )
+
+                )
+
+            [5] => Array
+                (
+                    [data] => alamat
+                    [name] => 
+                    [searchable] => true
+                    [orderable] => true
+                    [search] => Array
+                        (
+                            [value] => 
+                            [regex] => false
+                        )
+
+                )
+
+            [6] => Array
+                (
+                    [data] => email
+                    [name] => 
+                    [searchable] => true
+                    [orderable] => true
+                    [search] => Array
+                        (
+                            [value] => 
+                            [regex] => false
+                        )
+
+                )
+
+            [7] => Array
+                (
+                    [data] => aksi
+                    [name] => 
+                    [searchable] => true
+                    [orderable] => false
+                    [search] => Array
+                        (
+                            [value] => 
+                            [regex] => false
+                        )
+
+                )
+
+        )
+
+    [order] => Array
+        (
+            [0] => Array
+                (
+                    [column] => 0
+                    [dir] => asc
+                )
+
+        )
+
+    [start] => 0
+    [length] => 10
+    [search] => Array
+        (
+            [value] => 
+            [regex] => false
+        )
+
+    [action] => fetch
+)
